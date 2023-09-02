@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "App Ricky and Morty",
+      "description": "Es una app hecha en Reactjs que consume la API de rickyandmorty, en la que contiene un buscador, y poder ven en detalles cada personaje. ",
+      "image": "/rickandmorty.png",
+      "link": "https://practica-api-rickandmorty.web.app/home"
+    },
+    {
+      "id": 2,
+      "name": "Tarjeta Iteractiva",
+      "description": "Es una app hecha en Javascript en la que hay un formulario para cargar datos de una tarjeta y se van representando los datos en la tarjeta de manera automatica. ",
+      "image": "/interativeCard.png",
+      "link": "https://nanocode2022.github.io/InterativeCard/"
+    },
+    {
+      "id": 3,
+      "name": "Buscador de Imagenes",
+      "description": "Una app de un buscador de imagenes atraves de la API de Pixabay.",
+      "image": "/buscadorReact.png",
+      "link": "https://practica-buscadorapipixabay.web.app/"
+    },
+    {
+      "id": 4,
+      "name": "Administrador de Eventos",
+      "description": "Una app compuesta por una API hecha en Nodejs y el Frontend con Nextjs, la cual esta compuesta por un buscador, creador de eventos y edicion de eventos.",
+      "image": "/managmentEvent.png",
+      "link": "https://appevents.vercel.app/"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "name": "Trabajo Freelance",
+      "description": "Hago Paginas Web de manera Autonoma",
+      "start_time": "2023",
+      "end_time": "actualidad",
+      "skills": ["Reactjs", "CSS", "HTML", "Typescript", "Javascript"]
+    }
+  ]
+}
