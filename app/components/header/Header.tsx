@@ -12,8 +12,8 @@ export const Header: FC = () => {
     <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="font-medium text-7xl">NAHUEL</h1>
-        <p className="text-xl mt-2">Desarrollador Frontend</p>
-        <nav className="mt-24 max-lg:hidden">
+        <p className="text-xl mt-2 max-lg:mb-5">Desarrollador Frontend</p>
+        <nav className="mt-24 max-lg:hidden mb-5">
           <ul className="flex flex-col w-max gap-2 font-mono">
             <Link
               href="#about"
@@ -35,6 +35,7 @@ export const Header: FC = () => {
             </Link>
           </ul>
         </nav>
+        <a href='/nahuelCv.pdf' className='cursor-pointer bg-slate-200/30 p-2 px-4 rounded-lg mt-8'>Download CV</a>
       </div>
       <footer>
         <ul className="text-3xl flex gap-6 mt-8">
